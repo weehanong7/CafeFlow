@@ -30,4 +30,4 @@ A React Native POS (Point of Sale) app for cafes and restaurants. Built with Exp
 MIT
 
 ## Contact
-Your Name - [weehanong7@gmail.com](mailto:your@email.com)
+Your Name - [weehanong7@gmail.com](mailto:weehanong7@gmail.com)
