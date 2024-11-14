@@ -54,7 +54,7 @@ export const OrderCard = ({ order, onPress }: OrderCardProps) => {
 
       <View style={styles.footer}>
         <Text style={styles.totalLabel}>Total:</Text>
-        <Text style={styles.totalAmount}>${order.totalAmount.toFixed(2)}</Text>
+        <Text style={styles.totalAmount}>RM{order.totalAmount.toFixed(2)}</Text>
       </View>
     </TouchableOpacity>
   );

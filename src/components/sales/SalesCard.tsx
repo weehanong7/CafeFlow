@@ -12,7 +12,7 @@ export const SalesCard = ({ title, amount, subtitle }: SalesCardProps) => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>{title}</Text>
-      <Text style={styles.amount}>${amount.toFixed(2)}</Text>
+      <Text style={styles.amount}>RM{amount.toFixed(2)}</Text>
       {subtitle && <Text style={styles.subtitle}>{subtitle}</Text>}
     </View>
   );
